@@ -1,34 +1,49 @@
+# 📊 Comparative Study of Text Classification:  
+### Transformer-Based Transfer Learning vs. LSTM-Based Deep Learning from Scratch
 
-Comparative Study of Text Classification Using Transformer-Based Transfer Learning vs. LSTM-Based Deep Learning from Scratch
-📌 Project Overview
-This project compares two deep learning methods for classifying IMDB movie reviews as either positive or negative.
+---
 
-Transformer-Based Transfer Learning:
+## 📌 Project Overview
 
-Utilizes a pretrained DistilBERT model (a lighter variant of BERT) from the Hugging Face Transformers library.
-Leverages transfer learning by fine-tuning the model on a specific text classification dataset.
-GRU-Based Model From Scratch:
+This project compares two deep learning approaches for classifying **IMDB movie reviews** as either positive or negative.
 
-Builds a GRU (Gated Recurrent Unit) model without using any pretrained embeddings.
+---
 
-Trains all layers, including the embedding matrix, from scratch.
+### 🔹 Transformer-Based Transfer Learning
 
-Objective:
+- Utilizes a **pretrained DistilBERT** model (a lighter version of BERT) from the **Hugging Face Transformers** library.
+- Leverages **transfer learning** by fine-tuning the model on the text classification dataset.
+
+---
+
+### 🔸 GRU-Based Model From Scratch
+
+- Builds a **GRU (Gated Recurrent Unit)** model **without** using any pretrained embeddings.
+- Trains **all layers**, including the embedding matrix, **from scratch**.
+
+---
+
+## 🎯 Objective
 
 Evaluate and compare the performance of both methods in terms of:
 
-Training and validation loss
+- 📉 Training and validation loss  
+- ✅ Accuracy  
+- 🌐 Generalization ability  
+- 🕒 Training time and resource usage  
 
-Accuracy
+---
 
-Generalization ability
+## 💡 Motivation
 
-Training time and resource usage
+- **GRU-based models** are classical deep learning approaches for sequence modeling and offer **simpler alternatives** when computational resources are limited.
+- **Transformer-based models** (e.g., BERT, DistilBERT) have achieved **state-of-the-art performance** on many NLP tasks.
 
-Motivation:
+---
 
-GRU-based models are classical deep learning approaches for sequence modeling and still offer simpler alternatives when resources are limited.
+## 🔍 Conclusion
 
-Transformer-based models have achieved state-of-the-art performance.
+This project demonstrates the **strengths and trade-offs** of both methods in a practical text classification scenario.
 
-This project demonstrates the strengths and trade-offs of each approach in a practical text classification scenario.
+---
+
